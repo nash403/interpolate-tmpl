@@ -38,3 +38,8 @@ console.log(interpolate(str, data, "{{}}") ); // Logs interpolated string
 You can call functions with simple arguments (strings & integers only, no variable) and change the delimiter. Just pass the delimiter as a string to the interpolate function as the last parameter (default is `{{}}`).
 
 **Supported delimiters are:** `{{}}`, `{}`, `[[]]`, `[]`, `<$$>`, `<##>`, `<%%>`.
+
+***
+In browser you can also use the `interpolate` function. For that you need to import in your browser the `get-safe` module file **before** the 'interpolate-tmpl' module (via the `interpolate.browser.js` file).
+
+**Note:** ES6 features are used so pay attention to the browser compatibility or use a transpiler like Babel or Traceur.
