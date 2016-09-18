@@ -1,0 +1,26 @@
+{
+  "name": "interpolate-tmpl",
+  "version": "1.0.0",
+  "description": "String interpolation made easy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "keywords": [
+    "interpolation",
+    "string",
+    "interpolate",
+    "templating",
+    "template",
+    "replace",
+    "utility",
+    "replacement",
+    "eval",
+    "format"
+  ],
+  "author": "nash403",
+  "license": "MIT",
+  "dependencies": {
+    "get-safe": "^1.2.0"
+  }
+}
