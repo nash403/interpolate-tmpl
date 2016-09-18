@@ -18,6 +18,10 @@
     "eval",
     "format"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nash403/interpolate-tmpl.git"
+  },
   "author": "nash403",
   "license": "MIT",
   "dependencies": {
