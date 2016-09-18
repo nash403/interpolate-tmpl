@@ -4,7 +4,7 @@
 Simple interpolation utility based on the JavaScript `RegExp`, `String#replace` and the npm module [`get-safe`](https://www.npmjs.com/package/get-safe "npm module get-safe") for safe access to nested properties.
 ***
 #### Install:
-`npm install get-safe --save`
+`npm install interpolate-tmpl --save`
 
 #### How to use
  ```JavaScript
