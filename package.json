@@ -4,7 +4,8 @@
   "description": "String interpolation made easy.",
   "main": "index.js",
   "scripts": {
-    "test": "node tests.js"
+    "test": "node tests.js",
+    "build": "rimraf ./web/interpolate.js && webpack"
   },
   "keywords": [
     "interpolation",
@@ -25,6 +26,13 @@
   "author": "nash403",
   "license": "MIT",
   "dependencies": {
-    "get-safe": "^1.2.0"
+    "get-safe": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.2"
   }
 }
