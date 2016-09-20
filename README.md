@@ -40,6 +40,4 @@ You can call functions with simple arguments (strings & integers only, no variab
 **Supported delimiters are:** `{{}}`, `{}`, `[[]]`, `[]`, `<$$>`, `<##>`, `<%%>`.
 
 ***
-In browser you can also use the `interpolate` function. For that you need to import in your browser the `get-safe` module file **before** the 'interpolate-tmpl' module (via the `interpolate.browser.js` file).
-
-**Note:** ES6 features are used so pay attention to the browser compatibility or use a transpiler like Babel or Traceur.
+The browser version adds a `interpolate` function to the window object.
